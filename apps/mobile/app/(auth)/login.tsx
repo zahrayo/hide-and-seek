@@ -75,25 +75,25 @@ export default function LoginPage() {
 
         <View className="space-y-3">
           <TouchableOpacity
-            className="flex-row items-center justify-center w-full border border-gray-600 py-4 rounded-lg mb-2"
-            disabled={isLoading}
+            className="flex-row items-center justify-center w-full border border-gray-700 bg-gray-800 py-4 rounded-lg mb-2 opacity-50"
+            disabled
           >
             <Image
               source={require("@/assets/images/google-icon.png")}
-              className="w-6 h-6"
+              className="w-6 h-6 opacity-50"
             />
-            <Text className="text-white ml-2 text-base">
-              Continue with Google
+            <Text className="text-gray-400 ml-2 text-base">
+              Continue with Google - Coming Soon
             </Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            className="flex-row items-center justify-center w-full border border-gray-600 py-4 rounded-lg mb-2"
-            disabled={isLoading}
+            className="flex-row items-center justify-center w-full border border-gray-700 bg-gray-800 py-4 rounded-lg mb-2 opacity-50"
+            disabled
           >
-            <AntDesign name="apple1" size={24} color="white" />
-            <Text className="text-white ml-2 text-base">
-              Continue with Apple
+            <AntDesign name="apple1" size={24} color="#9CA3AF" />
+            <Text className="text-gray-400 ml-2 text-base">
+              Continue with Apple - Coming Soon
             </Text>
           </TouchableOpacity>
         </View>
